@@ -43,6 +43,8 @@ namespace NzbDrone.Core.MediaFiles.MovieImport.Specifications
                 return Decision.Accept();
             }
 
+            return Decision.Accept();
+
             foreach (var item in grabbedHistory)
             {
                 if (item.Quality.Quality != Quality.Unknown && item.Quality != localMovie.Quality)
