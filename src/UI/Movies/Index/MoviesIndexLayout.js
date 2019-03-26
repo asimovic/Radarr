@@ -224,6 +224,10 @@ module.exports = Marionette.Layout.extend({
                     title : 'In Cinemas',
                     name  : 'inCinemas'
                 },
+                {
+                    title : 'Date Added',
+                    name  : 'added'
+                },
                 /*{
                   title : "Status",
                   name : "status",
